@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Apps Store</title>
+    <style>
+        :root {
+            --bg-gradient: linear-gradient(180deg, #0f172a 0%, #020617 100%);
+            --card-bg: rgba(30, 41, 59, 0.4);
+            --card-border: rgba(255, 255, 255, 0.08);
+            --primary-glow: linear-gradient(90deg, #38bdf8, #3b82f6);
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: var(--bg-gradient);
+            color: var(--text-main);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+
+        .app-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            border-radius: 28px;
+            padding: 40px 30px;
+            text-align: center;
+            max-width: 360px;
+            width: 100%;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        .app-icon-container {
+            width: 80px;
+            height: 80px;
+            background: rgba(56, 189, 248, 0.1);
+            border-radius: 22px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 24px auto;
+            border: 1px solid rgba(56, 189, 248, 0.2);
+            font-size: 40px;
+            box-shadow: 0 0 20px rgba(56, 189, 248, 0.15);
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: 700;
+            margin: 0 0 12px 0;
+            letter-spacing: -0.5px;
+            color: #ffffff;
+        }
+
+        p {
+            font-size: 14px;
+            color: var(--text-muted);
+            margin: 0 0 32px 0;
+            line-height: 1.6;
+            font-weight: 400;
+        }
+
+        .download-btn {
+            display: block;
+            background: var(--primary-glow);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 16px;
+            border-radius: 16px;
+            font-weight: 600;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.4);
+        }
+
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px -5px rgba(59, 130, 246, 0.6);
+            filter: brightness(1.1);
+        }
+
+        .info-badge {
+            margin-top: 28px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            font-size: 13px;
+            color: var(--text-muted);
+            text-align: left;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding-top: 20px;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="app-card">
+    <div class="app-icon-container">💎</div>
+    <h2>লিঙ্ক প্রস্তুত রয়েছে!</h2>
+    <p>আপনার রিকোয়েস্ট করা প্রিমিয়াম/মোড অ্যাপ ফাইলটি সম্পূর্ণ ফ্রিতে এবং হাই-স্পিড সার্ভারে ডাউনলোড করার জন্য নিচের বাটনে ক্লিক করুন।</p>
+    
+    <a href="https://omg10.com/4/11205868" class="download-btn">⚡ ইনস্টল করুন (Premium App)</a>
+
+    <div class="info-badge">
+        <div class="info-item">✅ <span>অফিশিয়াল এবং নিরাপদ ফাইল</span></div>
+        <div class="info-item">🔓 <span>সব প্রিমিয়াম ফিচার আনলকড</span></div>
+        <div class="info-item">🛡️ <span>অ্যান্টি-ব্যান এবং ভাইরাস মুক্ত</span></div>
+    </div>
+</div>
+
+</body>
+</html>
